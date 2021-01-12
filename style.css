@@ -1,0 +1,92 @@
+h2 {
+    background-color: chartreuse;
+    width: fit-content;
+}
+.Arial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: darkcyan;
+}
+h1 {
+    font-size: 24 pt;
+    color: rgb(129, 192, 36);
+}
+h4#TimeNewRoman {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(27, 160, 149);
+}
+.absolute {
+    position: absolute;
+    z-index: 2;
+    left: 5cm;
+    top: 10cm;
+    height: 3cm;
+    width: 5cm;
+    background-color: lightcoral;
+}
+.relative {
+    position: relative;
+    left: 2cm;
+    height: 3cm;
+    width: 5cm;
+    background-color: rgb(28, 49, 173);
+}
+.floatText {
+    float: left;
+    border: 3px solid rgb(211, 198, 14);
+    width: fit-content;
+    background-color: sandybrown;
+    padding: 10px;
+    margin-right: 10px;
+}
+table {
+    --vasgray: gray;
+    border-spacing: 0;
+    margin: 1px;
+    border: 1px solid rgb(129, 6, 6);
+}
+td {
+    padding-right: 30px;
+    border-top: 1px solid rgb(129, 6, 6);
+}
+.firstStr{
+    background-color: rgb(129, 6, 6);
+    color: white;
+    font-size: large;
+}
+.secondStr{
+    background-color: rgb(233, 220, 197);
+    font-size: 14px;
+    border-left-color:  rgb(233, 220, 197) ;
+    border-right-color: rgb(233, 220, 197) ;
+}
+.thirdStr{
+    background-color: rgb(248, 219, 166);
+    font-size: 14px;
+    border-left: 0px ;
+}
+span::after {
+    --vasgray: gray;
+    content: "gtgd";
+    background-color: var(--vasgray);
+}
+.trub {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    width: 3px;
+    height: 10px;
+    border: 1px solid red;
+}
+.triugo {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid green;
+    width: 0;
+    height: 0;
+}
+.kyb {
+    width: 40px;
+    height: 40px;
+    border: 1px solid blue;
+}
